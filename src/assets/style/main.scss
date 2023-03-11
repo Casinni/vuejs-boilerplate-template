@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-primary: #ffffff;
+    --color-text-muted: #9CA3AF;
+    --color-text-inverted: #111827;
+    --color-fill: #111827;
+    --color-button-accent: #10B981;
+    --color-button-accent-hover: #059669;
+    --color-button-muted: #374151;
+  }
+}
+
+
+@import "margin";
+@import "animation";
+@import "scrollbar";
+@import "button";
+@import "flexbox";
+@import "themes";
+@import "html";
+@import "input";
+@import "font";
+
+.pointer {
+  cursor: pointer;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.container {
+  margin: auto;
+  padding: 2rem;
+}
+
+.card {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--bg-tertiary);
+  border-radius: var(--btn-radius);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.fullwidth {
+  width: 100%;
+}

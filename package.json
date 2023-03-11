@@ -1,0 +1,45 @@
+{
+  "name": "vuejs-boilerplate",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Vue.js project",
+  "author": "Hugo Richard",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.js\" \"src/**/*.vue\" "
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.7",
+    "@heroicons/vue": "^2.0.13",
+    "@intlify/unplugin-vue-i18n": "^0.8.1",
+    "axios": "^1.2.2",
+    "express": "^4.18.2",
+    "serve-static": "^1.15.0",
+    "vue": "^3.2.13",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.0.3",
+    "vue-sweetalert2": "^5.0.5",
+    "vue3-google-login": "^2.0.12",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "^4.2.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/axios": "^0.14.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "postcss": "^8.4.20",
+    "prettier": "^2.3.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.3"
+  }
+}
